@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#title {
+    font-size: 20px; 
+}
+
+#logo {
+    width: 200px; 
+    height: auto; 
+}
+
+
+
+#main-section {
+    display: flex;
+    padding: 20px;
+}
+
+
+#env-info-div,
+#availble-steps-div,
+#designed-process-div,
+#process-report-div {
+    flex: 1;
+    margin-right: 1%; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+     padding: 10px; 
+}
+
+
+#env-info-div {
+    flex: 15%;
+}
+
+#availble-steps-div {
+    flex: 25%;
+}
+
+#designed-process-div {
+    flex: 25%;
+}
+
+#process-report-div {
+    flex: 35%;
+}
+
+
+.div-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+}
+
+.div-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+#env-info-input-div{
+    border-left: 2px solid #333;
+    margin: 10px 0px 5px -3px;
+    padding-left: 5px;
+}
+
+#env-info-input-div-container{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 60vh; 
+    overflow-y: auto; 
+}
+
+#search-step {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 40%;
+}
+
+#run-process{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.div-body {
+    display: flex;
+    flex-direction: column;
+    height: 65vh; 
+    overflow-y: auto; 
+}
+
+.functionality {
+    background-color: #439eff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: calc(300px); 
+    max-width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font: 1px;
+}
+
+
+.sub-desc {
+    display: block;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.download-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

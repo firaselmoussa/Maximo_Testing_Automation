@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235,235,235);
+}
+
+header {
+    padding: 1%;
+    height: fit-content;
+    min-height: 50px;
+    border-bottom: 2px solid black;
+}
+
+header * {
+    display: inline-block;
+}
+
+#title{
+    position: relative;
+    left: 2%;
+}
+
+#logo{
+   position: absolute;
+   right: 5%;
+}
+
+/* ///////////////////////// */
+
+#main-section{
+    padding: 1%;
+}
+
+#env-info-div,
+#availble-steps-div,
+#designed-process-div,
+#process-report-div{
+    display: inline-block;
+    border-radius: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1) inset;
+    background-color: rgb(250,250,250);
+}
+
+#env-info-div{
+    position: absolute;
+    left: 1%;
+    height:80%;
+    width:20%;
+    
+}
+
+#availble-steps-div{
+    position: absolute;
+    left: 22%;
+    height:80%;
+    width:20%;
+}
+
+#designed-process-div{
+    position: absolute;
+    left: 43%;
+    height:80%;
+    width:20%;
+}
+
+#process-report-div{
+    position: absolute;
+    left: 64%;
+    height:80%;
+    width:35%;
+}
+
+.div-header  {
+    font-weight: bold;
+    border-bottom: 1px solid black ;
+    padding: 1%;
+    background-color: white;
+    height: 30px;
+}
+
+.div-header * {
+    display: inline;
+}
+
+.div-title{
+    position: absolute;
+    left: 2%;
+}
+
+button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 0px 1px  rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    box-shadow: 1px 1px 3px 1px  rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#ReportDownloadBtn{
+    position: absolute;
+    right: 2%;
+}
+
+#env-info-input-div{
+    height: fit-content;
+    width: 100%;
+}
+
+#env-username,
+#env-password{
+    width: 45%;
+}
+
+#env-link{
+    width:98%
+}
+
+#env-username,
+#env-password,
+#env-link{
+    margin: 1%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+
