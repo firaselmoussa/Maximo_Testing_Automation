@@ -41,3 +41,20 @@ droppedBubble.draggable({
     // Make droppable div scrollable
     $(".droping-div").css("overflow-y", "auto");
 });
+
+
+
+$(function() {
+    // Create new env-info-input-div on button click
+    $("#new-env").on("click", function() {
+        var newEnvInputDiv = $("#env-info-input-div").clone(); // Clone the existing div
+        newEnvInputDiv.find("input[type=text]").val(""); // Clear input values
+        $("#env-info-input-div-container").append(newEnvInputDiv); // Append the cloned div
+    });
+
+    // File upload functionality
+    $("#upload-env").on("click", function() {
+        // Your file upload logic here
+        alert("Upload CSV functionality will be implemented here.");
+    });
+});
