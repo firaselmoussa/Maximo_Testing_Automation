@@ -44,6 +44,7 @@ droppedBubble.draggable({
 
 
 
+//ADD ENV INFO
 $(function() {
     // Create new env-info-input-div on button click
     $("#new-env").on("click", function() {
@@ -52,9 +53,19 @@ $(function() {
         $("#env-info-input-div-container").append(newEnvInputDiv); // Append the cloned div
     });
 
-    // File upload functionality
+});
+
+// UPLOAD ENV FILE
+$(function() {
+    // Function to trigger file input click event
     $("#upload-env").on("click", function() {
-        // Your file upload logic here
-        alert("Upload CSV functionality will be implemented here.");
+        $("#csv-file-input").click(); // Trigger click event on file input
+    });
+
+    // Event listener for file input change
+    $("#csv-file-input").on("change", function() {
+        // Handle file selection here
+        var selectedFile = this.files[0];
+        console.log("Selected file:", selectedFile);
     });
 });
