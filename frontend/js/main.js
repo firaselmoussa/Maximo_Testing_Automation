@@ -13,7 +13,6 @@ $(function() {
         accept: ".functionality", // Specify which elements can be dropped
         drop: function(event, ui) {
             var droppedBubble = ui.draggable;
-
             // Check if the dropped bubble is coming from the parent div
             if (!droppedBubble.hasClass("cloned")) {
                 // Clone the dropped bubble if it's from the parent div
