@@ -140,7 +140,7 @@ header {
     padding-left: 5px;
     display: flex;
     flex-direction: column;
-    height: 60vh; 
+    height: 80%; 
     overflow-y: auto; 
 }
 
@@ -169,6 +169,10 @@ header {
     flex-direction: column;
     height: 65vh; 
     overflow-y: auto; 
+}
+
+#save-process{
+    width:100%;
 }
 
 .functionality {
