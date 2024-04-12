@@ -16,7 +16,7 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 20px; 
+    padding: 0px 20px; 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
@@ -31,7 +31,53 @@ header {
     height: auto; 
 }
 
+#person-icon{
+    width: 35px;
 
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown container (hidden by default) */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
 
 #main-section {
     display: flex;
