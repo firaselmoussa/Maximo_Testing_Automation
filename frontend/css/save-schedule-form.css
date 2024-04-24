@@ -1,0 +1,71 @@
+body{
+    overflow: hidden;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.4);
+    
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    /* display: flex; */
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: fit-content; 
+  }
+
+#name,
+#description
+{
+   width: 100%; 
+   border: none;
+   border-bottom: 1px solid black;
+   overflow: visible;
+}  
+  
+  /* Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+/* CSS for when "Schedule" checkbox is not checked */
+#schedule:not(:checked) ~ label[for="recurring"],
+#schedule:not(:checked) ~ label[for="dateTime"],
+#schedule:not(:checked) ~ input[name="recurring"],
+#schedule:not(:checked) ~ input[name="dateTime"] {
+  pointer-events: none; 
+  opacity: 0.5; 
+}
+
+#schedule:not(:checked) ~ input[name="recurring"],
+#schedule:not(:checked) ~ input[name="dateTime"] {
+  cursor: not-allowed; 
+}
+
+
+.modal-content button{
+    width: 100%;
+}

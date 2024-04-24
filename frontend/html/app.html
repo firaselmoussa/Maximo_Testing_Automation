@@ -6,6 +6,7 @@
     <title>Maximo Testing Automation </title>
     <link rel="icon" href="../../images/eSolutions-Logo.png">
     <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/save-schedule-form.css">
     <!-- Include jQuery library -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Include jQuery UI library -->
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     
     <script src="../js/main.js"></script>
+    <script src="../js/save-schedule-form.js"></script>
 </head>
 <body>
     
@@ -133,6 +135,34 @@
      <p>Developed by      &nbsp &nbsp &nbsp &nbsp &nbsp      FIRAS.ELMOUSSA@MAXIMO.COM.SA  &nbsp &nbsp &nbsp &nbsp &nbsp    eSolutions © 2024</p>
 </footer> -->
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Save / Schedule</h2>
+      <br> 
+      <form id="processForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description">
+        <br> <br>
+        <label for="schedule">Schedule:</label>
+        <input type="checkbox" id="schedule" name="schedule">
+        <br>
+        <label for="recurring">Recurring:</label>
+        <input type="checkbox" id="recurring" name="recurring">
+        <br>
+        <label for="dateTime">Date & Time:</label>
+        <input type="datetime-local" id="dateTime" name="dateTime">
+        <br> <br>
+        <button type="submit">Save  /  Schedule</button>
+      </form>
+    </div>
+  
+  </div>
 </body>
 </html>
