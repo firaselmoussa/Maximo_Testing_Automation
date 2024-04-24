@@ -186,8 +186,21 @@ header {
     cursor: pointer;
     transition: background-color 0.3s ease;
     box-shadow: 0px 0px 5px 2px rgba(150,150,150, 1);
+
 }
 
+.functionality img,
+.functionality p{
+    float: left;
+}
+
+
+#designed-process-bg-txt{
+    background-image:url(../../images/ins-txt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 
 .sub-desc {
     display: block;
@@ -249,4 +262,10 @@ footer {
     cursor: grabbing;
     cursor: -moz-grabbing;
     cursor: -webkit-grabbing;
+}
+
+#drag-handle{
+    width: 40px;
+    opacity: 0.5;
+    /* height: 40px; */
 }
