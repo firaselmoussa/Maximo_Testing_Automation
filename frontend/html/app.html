@@ -27,7 +27,7 @@
         <button ><img id="person-icon" src="../../images/person.png" alt="Person"></button>
         <div class="dropdown-content">
             <a href="index.html">Logout</a>
-            <a href="#">Saved / Scheduled Process</a>
+            <a href="#" id="open-modal-button">Saved / Scheduled Process</a>
         </div>
     
     <!-- End of dropdown menu -->
@@ -161,7 +161,26 @@
         <button type="submit">Save  /  Schedule</button>
       </form>
     </div>
-  
   </div>
+
+
+  <!-- The Modal -->
+<!-- The Modal -->
+<div id="customModal" class="custom-modal">
+
+    <!-- Modal content -->
+    <div class="custom-modal-content">
+        <span class="custom-close">&times;</span>
+        <h2>Saved / Scheduled Processes</h2>
+        <div class="bubble-grid">
+            <div class="bubble"><p>Login to multiple env</p></div>
+            <div class="bubble"><p>Create users</p></div>
+            <div class="bubble"><p>Search & download records</p></div>
+            <!-- Add more bubbles as needed -->
+        </div>
+    </div>
+</div>
+
+
 </body>
 </html>
