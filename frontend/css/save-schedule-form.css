@@ -1,9 +1,9 @@
 body{
     overflow: hidden;
 }
-/* The Modal (background) */
+
 .modal {
-    display: none; /* Hidden by default */
+    display: none; 
     position: fixed; 
     z-index: 1; 
     left: 0;
@@ -14,9 +14,9 @@ body{
     
   }
   
-  /* Modal Content/Box */
+
   .modal-content {
-    /* display: flex; */
+
     background-color: #fefefe;
     margin: 5% auto; 
     padding: 20px;
@@ -35,7 +35,7 @@ body{
    overflow: visible;
 }  
   
-  /* Close Button */
+
   .close {
     color: #aaa;
     float: right;
@@ -51,7 +51,7 @@ body{
   }
   
 
-/* CSS for when "Schedule" checkbox is not checked */
+
 #schedule:not(:checked) ~ label[for="recurring"],
 #schedule:not(:checked) ~ label[for="dateTime"],
 #schedule:not(:checked) ~ input[name="recurring"],
@@ -71,12 +71,12 @@ body{
 }
 
 body {
-  overflow: auto; /* Changed to auto to allow scrolling */
+  overflow: auto; 
 }
 
-/* The Modal (background) */
+
 .custom-modal {
-  display: none; /* Hidden by default */
+  display: none; 
   position: fixed; 
   z-index: 1; 
   left: 0;
@@ -86,7 +86,7 @@ body {
   background-color: rgba(0,0,0,0.4);
 }
 
-/* Modal Content/Box */
+
 .custom-modal-content {
   background-color: #fefefe;
   margin: 5% auto; 
@@ -98,7 +98,7 @@ body {
 }
 
 
-/* Close Button */
+
 .custom-close {
   color: #aaa;
   float: right;
@@ -113,7 +113,7 @@ body {
   cursor: pointer;
 }
 
-/* CSS for when "Schedule" checkbox is not checked */
+
 #schedule:not(:checked) ~ label[for="recurring"],
 #schedule:not(:checked) ~ label[for="dateTime"],
 #schedule:not(:checked) ~ input[name="recurring"],
